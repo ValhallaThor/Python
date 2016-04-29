@@ -1,0 +1,392 @@
+
+18:03:18 	My Inbox 	Thor 	Nothing 	
+	
+Switch location below:
+	
+				
+Metal 	Crystal 	Deuterium 	Energy 	Rubies	
+1.332.329 	748.037 	547.366 	82.044/265.478 	88	
+38 total messages. Displaying page #1 of 3 pages
+Select Page	
+	
+Espionage Reports	Refresh
+	
+Action	#	Date	From	Subject
+	1	Wed 27 Apr 2016, 18:03:05	Headquarters	Espionage Report
+	
+Raw Materials Yokes [2:101:12] at 27-04-2016 18:03:07
+Metal	871.191	 	Crystal	387.435
+Deuterium	196.125	 	Energy	41.156
+Fleet
+Defenses
+Rocket Launcher	2	 	Light Laser	2
+Heavy Laser	2	 	Gauss Cannon	2
+Ion Cannon	2	 	Small Shield Dome	1
+Buildings
+Metal Mine	26	 	Crystal Mine	23
+Deuterium Synthesizer	23	 	Solar Plant	27
+Fusion Reactor	12	 	Robot Factory	15
+Nanite Factory	3	 	Ship Yard	15
+Metal Storage	4	 	Crystal Storage	2
+Deuterium Tank	1	 	Research Lab	15
+Terraformer	2	 	Missile Silo	1
+Research
+Espionage Technology	13	 	Computer Technology	13
+Weapons Technology	15	 	Shield Technology	15
+Armor Technology	15	 	Energy Technology	15
+Hyperspace Technology	10	 	Combustion Engine	13
+Impulse Engine	12	 	Hyperspace Engine	9
+Laser Technology	15	 	Ion Technology	14
+Plasma Technology	11	 	Intergalactic Research Network	3
+Expedition Technology	8	 	Zorg Physics	3
+Graviton Technology	1	 	 	 
+
+Attack
+Simulate
+Probability of the destruction of the fleets intelligence : 0 %
+Add Shortcut
+	2	Wed 27 Apr 2016, 18:02:22	Headquarters	Espionage Report
+	
+Raw Materials Safeway- Scales [2:101:7] at 27-04-2016 18:02:33
+Metal	970.406	 	Crystal	562.017
+Deuterium	290.122	 	Energy	45.142
+Fleet
+Defenses
+Rocket Launcher	2	 	Light Laser	2
+Heavy Laser	2	 	Gauss Cannon	1
+Ion Cannon	2	 	Plasma Cannon	2
+Small Shield Dome	1	 	Large Shield Dome	1
+Buildings
+Metal Mine	25	 	Crystal Mine	24
+Deuterium Synthesizer	24	 	Solar Plant	28
+Fusion Reactor	12	 	Robot Factory	16
+Nanite Factory	5	 	Ship Yard	15
+Metal Storage	4	 	Crystal Storage	3
+Deuterium Tank	2	 	Research Lab	14
+ACS Depot	1	 	Missile Silo	2
+Research
+Espionage Technology	13	 	Computer Technology	13
+Weapons Technology	15	 	Shield Technology	15
+Armor Technology	15	 	Energy Technology	15
+Hyperspace Technology	10	 	Combustion Engine	13
+Impulse Engine	12	 	Hyperspace Engine	9
+Laser Technology	15	 	Ion Technology	14
+Plasma Technology	11	 	Intergalactic Research Network	3
+Expedition Technology	8	 	Zorg Physics	3
+Graviton Technology	1	 	 	 
+
+Attack
+Simulate
+Probability of the destruction of the fleets intelligence : 0 %
+Add Shortcut
+	3	Wed 27 Apr 2016, 18:01:45	Headquarters	Espionage Report
+	
+Raw Materials Best Buy [2:101:4] at 27-04-2016 18:01:49
+Metal	861.504	 	Crystal	437.925
+Deuterium	231.893	 	Energy	45.142
+Fleet
+Defenses
+Rocket Launcher	2	 	Light Laser	2
+Heavy Laser	2	 	Gauss Cannon	2
+Ion Cannon	2	 	Plasma Cannon	2
+Small Shield Dome	1	 	Large Shield Dome	1
+Buildings
+Metal Mine	26	 	Crystal Mine	24
+Deuterium Synthesizer	24	 	Solar Plant	28
+Fusion Reactor	12	 	Robot Factory	16
+Nanite Factory	4	 	Ship Yard	16
+Metal Storage	8	 	Crystal Storage	1
+Deuterium Tank	1	 	Research Lab	15
+Missile Silo	2	 	 	 
+Research
+Espionage Technology	13	 	Computer Technology	13
+Weapons Technology	15	 	Shield Technology	15
+Armor Technology	15	 	Energy Technology	15
+Hyperspace Technology	10	 	Combustion Engine	13
+Impulse Engine	12	 	Hyperspace Engine	9
+Laser Technology	15	 	Ion Technology	14
+Plasma Technology	11	 	Intergalactic Research Network	3
+Expedition Technology	8	 	Zorg Physics	3
+Graviton Technology	1	 	 	 
+
+Attack
+Simulate
+Probability of the destruction of the fleets intelligence : 0 %
+Add Shortcut
+	4	Wed 27 Apr 2016, 18:01:16	Headquarters	Espionage Report
+	
+Raw Materials 2:124:14 456 [2:124:14] at 27-04-2016 18:01:16
+Metal	866.884	 	Crystal	345.043
+Deuterium	202.534	 	Energy	80.076
+Fleet
+Defenses
+Interplanetary Missile	35	 	 	 
+Buildings
+Metal Mine	31	 	Crystal Mine	27
+Deuterium Synthesizer	27	 	Solar Plant	30
+Fusion Reactor	14	 	Robot Factory	18
+Nanite Factory	6	 	Ship Yard	18
+Metal Storage	7	 	Crystal Storage	7
+Deuterium Tank	7	 	Research Lab	17
+ACS Depot	2	 	Missile Silo	9
+Research
+Espionage Technology	16	 	Computer Technology	18
+Weapons Technology	18	 	Shield Technology	18
+Armor Technology	18	 	Energy Technology	20
+Hyperspace Technology	9	 	Combustion Engine	18
+Impulse Engine	16	 	Hyperspace Engine	12
+Laser Technology	12	 	Ion Technology	5
+Plasma Technology	13	 	Intergalactic Research Network	6
+Zorg Physics	5	 	Graviton Technology	2
+
+Attack
+Simulate
+Probability of the destruction of the fleets intelligence : 0 %
+Add Shortcut
+	5	Wed 27 Apr 2016, 18:00:25	Headquarters	Espionage Report
+	
+Raw Materials Colony [2:143:14] at 27-04-2016 18:00:28
+Metal	852.940	 	Crystal	426.472
+Deuterium	85.290	 	Energy	0
+Fleet
+Defenses
+Rocket Launcher	2	 	Light Laser	2
+Heavy Laser	2	 	Gauss Cannon	2
+Ion Cannon	2	 	Plasma Cannon	1
+Small Shield Dome	1	 	Large Shield Dome	1
+Antiballistic Missile	5	 	 	 
+Buildings
+Metal Mine	22	 	Crystal Mine	21
+Deuterium Synthesizer	23	 	Solar Plant	26
+Fusion Reactor	11	 	Robot Factory	14
+Nanite Factory	1	 	Ship Yard	14
+Metal Storage	4	 	Crystal Storage	2
+Deuterium Tank	3	 	Research Lab	13
+Terraformer	2	 	ACS Depot	1
+Missile Silo	4	 	 	 
+Research
+Espionage Technology	12	 	Computer Technology	13
+Weapons Technology	15	 	Shield Technology	13
+Armor Technology	15	 	Energy Technology	15
+Hyperspace Technology	10	 	Combustion Engine	12
+Impulse Engine	10	 	Hyperspace Engine	9
+Laser Technology	14	 	Ion Technology	13
+Plasma Technology	10	 	Intergalactic Research Network	3
+Expedition Technology	6	 	Zorg Physics	2
+
+Attack
+Simulate
+Probability of the destruction of the fleets intelligence : 0 %
+Add Shortcut
+	6	Wed 27 Apr 2016, 17:59:58	Headquarters	Espionage Report
+	
+Raw Materials Mashhad [2:159:1] at 27-04-2016 17:59:58
+Metal	1.123.356	 	Crystal	504.679
+Deuterium	226.011	 	Energy	28.317
+Fleet
+Defenses
+Small Shield Dome	1	 	Large Shield Dome	1
+Buildings
+Metal Mine	28	 	Crystal Mine	25
+Deuterium Synthesizer	24	 	Solar Plant	27
+Fusion Reactor	10	 	Robot Factory	13
+Nanite Factory	1	 	Ship Yard	14
+Metal Storage	3	 	Crystal Storage	3
+Deuterium Tank	4	 	Research Lab	12
+Research
+Espionage Technology	10	 	Computer Technology	11
+Weapons Technology	13	 	Shield Technology	11
+Armor Technology	14	 	Energy Technology	14
+Hyperspace Technology	9	 	Combustion Engine	12
+Impulse Engine	9	 	Hyperspace Engine	7
+Laser Technology	13	 	Ion Technology	14
+Plasma Technology	8	 	Intergalactic Research Network	1
+Expedition Technology	6	 	Graviton Technology	1
+
+Attack
+Simulate
+Probability of the destruction of the fleets intelligence : 0 %
+Add Shortcut
+	7	Wed 27 Apr 2016, 17:59:33	Headquarters	Espionage Report
+	
+Raw Materials Colony [2:168:6] at 27-04-2016 17:59:33
+Metal	755.285	 	Crystal	434.297
+Deuterium	227.895	 	Energy	32.444
+Fleet
+Defenses
+Interplanetary Missile	22	 	 	 
+Buildings
+Metal Mine	22	 	Crystal Mine	21
+Deuterium Synthesizer	21	 	Solar Plant	27
+Fusion Reactor	8	 	Robot Factory	14
+Nanite Factory	2	 	Ship Yard	15
+Metal Storage	5	 	Crystal Storage	3
+Deuterium Tank	2	 	Research Lab	13
+ACS Depot	1	 	Missile Silo	5
+Research
+Espionage Technology	12	 	Computer Technology	12
+Weapons Technology	15	 	Shield Technology	15
+Armor Technology	16	 	Energy Technology	15
+Hyperspace Technology	10	 	Combustion Engine	14
+Impulse Engine	10	 	Hyperspace Engine	10
+Laser Technology	15	 	Ion Technology	15
+Plasma Technology	10	 	Intergalactic Research Network	3
+Expedition Technology	5	 	Zorg Physics	4
+Graviton Technology	2	 	 	 
+
+Attack
+Simulate
+Probability of the destruction of the fleets intelligence : 0 %
+Add Shortcut
+	8	Wed 27 Apr 2016, 17:59:08	Headquarters	Espionage Report
+	
+Raw Materials Colony [2:176:7] at 27-04-2016 17:59:08
+Metal	517.274	 	Crystal	228.723
+Deuterium	44.905	 	Energy	0
+Fleet
+Defenses
+Buildings
+Metal Mine	21	 	Crystal Mine	22
+Deuterium Synthesizer	22	 	Solar Plant	25
+Fusion Reactor	11	 	Robot Factory	13
+Nanite Factory	2	 	Ship Yard	13
+Metal Storage	2	 	Crystal Storage	2
+Deuterium Tank	2	 	Research Lab	13
+Terraformer	3	 	ACS Depot	1
+Missile Silo	2	 	 	 
+Research
+Espionage Technology	12	 	Computer Technology	13
+Weapons Technology	15	 	Shield Technology	13
+Armor Technology	15	 	Energy Technology	15
+Hyperspace Technology	10	 	Combustion Engine	12
+Impulse Engine	10	 	Hyperspace Engine	9
+Laser Technology	14	 	Ion Technology	13
+Plasma Technology	10	 	Intergalactic Research Network	3
+Expedition Technology	6	 	Zorg Physics	2
+
+Attack
+Simulate
+Probability of the destruction of the fleets intelligence : 0 %
+Add Shortcut
+	9	Wed 27 Apr 2016, 17:58:44	Headquarters	Espionage Report
+	
+Raw Materials Colony [2:180:14] at 27-04-2016 17:58:44
+Metal	1.041.294	 	Crystal	527.696
+Deuterium	255.934	 	Energy	14.304
+Fleet
+Defenses
+Rocket Launcher	14	 	Light Laser	14
+Plasma Cannon	2	 	Small Shield Dome	1
+Large Shield Dome	1	 	 	 
+Buildings
+Metal Mine	24	 	Crystal Mine	22
+Deuterium Synthesizer	21	 	Solar Plant	17
+Fusion Reactor	10	 	Robot Factory	11
+Nanite Factory	1	 	Ship Yard	13
+Metal Storage	1	 	Research Lab	8
+Research
+Espionage Technology	11	 	Computer Technology	11
+Weapons Technology	14	 	Shield Technology	14
+Armor Technology	14	 	Energy Technology	15
+Hyperspace Technology	10	 	Combustion Engine	14
+Impulse Engine	9	 	Hyperspace Engine	10
+Laser Technology	13	 	Ion Technology	11
+Plasma Technology	10	 	Intergalactic Research Network	2
+Expedition Technology	3	 	Zorg Physics	4
+Graviton Technology	2	 	 	 
+
+Attack
+Simulate
+Probability of the destruction of the fleets intelligence : 0 %
+Add Shortcut
+	10	Wed 27 Apr 2016, 17:57:52	Headquarters	Espionage Report
+	
+Raw Materials Green [2:222:14] at 27-04-2016 17:57:53
+Metal	479.833	 	Crystal	228.039
+Deuterium	43.145	 	Energy	0
+Fleet
+Defenses
+Buildings
+Research
+Espionage Technology	4	 	Computer Technology	11
+Weapons Technology	1	 	Energy Technology	2
+Combustion Engine	4	 	Impulse Engine	4
+
+Attack
+Simulate
+Probability of the destruction of the fleets intelligence : 0 %
+Add Shortcut
+	11	Wed 27 Apr 2016, 17:41:27	Headquarters	Espionage Report
+	
+Raw Materials Pontus [5:136:5] at 27-04-2016 17:41:27
+Metal	631.565	 	Crystal	315.782
+Deuterium	63.906	 	Energy	0
+Fleet
+Defenses
+Buildings
+Research
+
+Attack
+Simulate
+Probability of the destruction of the fleets intelligence : 0 %
+Add Shortcut
+	12	Wed 27 Apr 2016, 17:41:25	Headquarters	Espionage Report
+	
+Raw Materials Chaos [5:135:12] at 27-04-2016 17:41:26
+Metal	632.677	 	Crystal	316.339
+Deuterium	64.018	 	Energy	0
+Fleet
+Defenses
+Buildings
+Research
+
+Attack
+Simulate
+Probability of the destruction of the fleets intelligence : 0 %
+Add Shortcut
+	13	Wed 27 Apr 2016, 17:41:24	Headquarters	Espionage Report
+	
+Raw Materials Tartarus [5:135:7] at 27-04-2016 17:41:24
+Metal	698.310	 	Crystal	349.160
+Deuterium	70.582	 	Energy	0
+Fleet
+Defenses
+Buildings
+Research
+
+Attack
+Simulate
+Probability of the destruction of the fleets intelligence : 0 %
+Add Shortcut
+	14	Wed 27 Apr 2016, 17:41:23	Headquarters	Espionage Report
+	
+Raw Materials Hephaestus [5:135:4] at 27-04-2016 17:41:23
+Metal	698.738	 	Crystal	349.370
+Deuterium	70.623	 	Energy	0
+Fleet
+Defenses
+Buildings
+Research
+
+Attack
+Simulate
+Probability of the destruction of the fleets intelligence : 0 %
+Add Shortcut
+	15	Wed 27 Apr 2016, 17:41:21	Headquarters	Espionage Report
+	
+Raw Materials Chronos [5:134:5] at 27-04-2016 17:41:21
+Metal	633.622	 	Crystal	316.813
+Deuterium	64.112	 	Energy	0
+Fleet
+Defenses
+Buildings
+Research
+
+Attack
+Simulate
+Probability of the destruction of the fleets intelligence : 0 %
+Add Shortcut
+Check/Uncheck All	
+38 total messages. Displaying page #1 of 3 pages
+Select Page	
+	
