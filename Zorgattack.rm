@@ -1,0 +1,78 @@
+The new zorgattack.py will read in the entire structure of the attack.txt and fill an mysql database
+Field in there
+
+Coordinates: <unique>
+Timestamp
+Moon (Boolean)
+Player Status (Integer)
+
+Buildings:
+ 	Metal Mine (Integer)
+	Crystal Mine (Integer)
+	Deuterium Synthesizer (Integer)
+	Solar Plant (Integer)
+	Fusion Reactor (Integer)
+	Robot Factory (Integer)
+	Nanite Factory (Integer)
+	Ship Yard (Integer)
+	Metal Storage (Integer)
+	Crystal Storage (Integer)
+	Deuterium Tank (Integer)
+	Research Lab (Integer)
+	Terraformer (Integer)
+	ACS Depot (Integer)
+	Missile Silo (Integer)
+ 	Lunar Base (Integer)
+	Sensor Phalanx (Integer)
+	Jump Gate (Integer)
+
+Defense:
+  Rocket Launcher (Integer)
+	Light Laser (Integer)
+	Heavy Laser (Integer)
+	Gauss Cannon (Integer)
+	Ion Cannon (Integer)
+	Plasma Cannon (Integer)
+	Small Shield Dome (Integer)
+	Large Shield Dome (Integer)
+	Antiballistic Missile (Integer)
+	Interplanetary Missile (Integer)
+
+Reseach:
+  Espionage Technology (Integer)
+	Computer Technology (Integer)
+	Weapons Technology (Integer)
+	Shield Technology (Integer)
+	Armor Technology (Integer)
+	Energy Technology (Integer)
+	Hyperspace Technology (Integer)
+	Combustion Engine (Integer)
+	Impulse Engine (Integer)
+  Hyperspace Engine (Integer)
+	Laser Technology (Integer)
+	Ion Technology (Integer)
+	Plasma Technology (Integer)
+	Intergalactic Research Network (Integer)
+	Expedition Technology (Integer)
+	Zorg Physics (Integer)
+	Graviton Technology (Integer)
+	
+Ships:
+	Small Cargo Ship 	(Integer)
+  Large Cargo Ship 	(Integer)
+  Light Fighter (Integer)
+  Heavy Fighter (Integer)
+  Cruiser (Integer)
+  Battleship (Integer)
+  Colony ship (Integer)
+  Recycler (Integer)
+  Espionage Ship (Integer)
+  Bomber (Integer)
+  Solar Satellite (Integer)
+  Destroyer (Integer)
+  Death Star (Integer)
+  Battlecruiser (Integer)
+  Lunar Guardian (Integer)
+  Elite Cargo (Integer)
+  Elite Recycler (Integer)
+
