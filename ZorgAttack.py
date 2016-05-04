@@ -1,5 +1,19 @@
 class zorg:
 
+
+    def __init__(self):
+        self.section = 0
+
+    def getSection(line):
+        if ("Raw Materials" in line and zorg.section < 1):
+            zorg.section = 1
+        elif ("Defenses" in line and zorg.section == 1):
+            zorg.section = zorg.section + 1
+        elif ("Buildings" in line and zorg.section == 2):
+            zorg.section = zorg.section + 1
+        elif ("Research" in line and zorg.section == 3):
+            zorg.section = zorg.section + 1
+
     def getLinetype(line):
         if ("[" in line) and ("]" in line):
             return "coord"
@@ -61,6 +75,7 @@ class zorg:
         return
 
     def buildAttacklist(inputfile, outputfile):
+        # old attack function will be replace by getStruct function
         fname = inputfile
         startofrecord = False
         fh = open(outputfile, "w")
@@ -143,6 +158,8 @@ class zorg:
             startofrecord == False
 
         return strs
+
+extreme = zorg()
 
 ifile = "d:/Data/Zorg/attack.txt"
 regels = zorg.getStruct(ifile)
