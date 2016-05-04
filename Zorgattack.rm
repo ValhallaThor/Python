@@ -1,8 +1,8 @@
 The new zorgattack.py will read in the entire structure of the attack.txt and fill an mysql database
 Field in there
 
-Coordinates: <unique>
-Timestamp
+Coordinates (String formatted: galaxy:system.slot) <unique>
+Timestamp (integer)
 Moon (Boolean)
 Player Status (Integer)
 
