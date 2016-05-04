@@ -27,7 +27,7 @@ Buildings:
 	Jump Gate (Integer)
 
 Defense:
-  Rocket Launcher (Integer)
+  	Rocket Launcher (Integer)
 	Light Laser (Integer)
 	Heavy Laser (Integer)
 	Gauss Cannon (Integer)
