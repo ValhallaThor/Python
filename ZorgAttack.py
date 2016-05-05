@@ -1,11 +1,12 @@
 class zorg:
 
+    section = 0
 
     def __init__(self):
         self.section = 0
 
     def getSection(line):
-        if ("Raw Materials" in line and zorg.section < 1):
+        if ("Raw Materials" in line) and ((zorg.section < 1) or (zorg.section > 2)):
             zorg.section = 1
         elif ("Defenses" in line and zorg.section == 1):
             zorg.section = zorg.section + 1
@@ -15,16 +16,15 @@ class zorg:
             zorg.section = zorg.section + 1
 
     def getLinetype(line):
-        if ("[" in line) and ("]" in line):
+        zorg.getSection(line)
+        if ("[" in line) and ("]" in line and zorg.section == 1):
             return "coord"
-        elif (("Metal" in line) and (("Rubies" in line) == False) and (("Mine" in line) == False)):
-            return "metal"
-        elif (("Crystal" in line) and ("Rubies" in line) == False) and (("Mine" in line) == False):
-            return "crystal"
-        elif (("Deuterium" in line) and ("Rubies" in line) == False) and (("Synthesizer" in line) == False):
-            return "deut"
-        elif ("Buildings") in line:
-            return "ignore"
+        elif (("Metal" in line) and (zorg.section == 1)):
+            return "Metal"
+        elif (("Crystal" in line) and (zorg.section == 1)):
+            return "Crystal"
+        elif (("Deuterium" in line) and (zorg.section == 1)):
+            return "Deuterium"
         else:
             return ""
 
@@ -104,10 +104,10 @@ class zorg:
                     ignore = True
                 elif (ignore):
                     pass
-                elif (linetype == "metal"):
+                elif (linetype == "Metal"):
                     metal = zorg.getMetal(line)
                     crystal = zorg.getCrystal(line)
-                elif (linetype == "deut"):
+                elif (linetype == "Deuterium"):
                     deut = zorg.getDeut(line)
                 else:
                     pass
@@ -145,10 +145,10 @@ class zorg:
                     ignore = True
                 elif (ignore):
                     pass
-                elif (linetype == "metal"):
+                elif (linetype == "Metal"):
                     metal = zorg.getMetal(line)
                     crystal = zorg.getCrystal(line)
-                elif (linetype == "deut"):
+                elif (linetype == "Deuterium"):
                     deut = zorg.getDeut(line)
                 else:
                     pass
