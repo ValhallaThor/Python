@@ -18,15 +18,41 @@ class zorg:
     def getLinetype(line):
         zorg.getSection(line)
         if ("[" in line) and ("]" in line and zorg.section == 1):
-            return "coord"
-        elif (("Metal" in line) and (zorg.section == 1)):
+            return "Raw Materials"
+        elif ("Metal" in line) and (zorg.section == 1):
             return "Metal"
-        elif (("Crystal" in line) and (zorg.section == 1)):
+        elif ("Crystal" in line) and (zorg.section == 1):
             return "Crystal"
-        elif (("Deuterium" in line) and (zorg.section == 1)):
+        elif ("Deuterium" in line) and (zorg.section == 1):
             return "Deuterium"
+        elif ("Rocket Launcher" in line) and (zorg.section == 2):
+            return "Rocket Launcher"
+        elif ("Light Laser" in line) and (zorg.section == 2):
+            return "Light Laser"
+        elif ("Heavy Laser" in line) and (zorg.section == 2):
+            return "Heavy Laser"
+        elif ("Gauss Cannon" in line) and (zorg.section == 2):
+            return "Gauss Cannon"
+        elif ("Ion Cannon" in line) and (zorg.section == 2):
+            return "Ion Cannon"
+        elif ("Plasma Cannon" in line) and (zorg.section == 2):
+            return "Plasma Cannon"
+        elif ("Small Shield Dome" in line) and (zorg.section == 2):
+            return "Small Shield Dome"
+        elif ("Large Shield Dome" in line) and (zorg.section == 2):
+            return "Large Shield Dome"
+        elif ("Antiballistic Missile" in line) and (zorg.section == 2):
+            return "Antiballistic Missile"
+        elif ("Interplanetary Missile" in line) and (zorg.section == 2):
+            return "Interplanetary Missile"
+        elif ("" in line) and (zorg.section == 3):
+            return ""
         else:
             return ""
+
+    def strip(line, linetype):
+        iStart = line.index(linetype)
+        return line[iStart+len(linetype):]
 
     def getCoord(line):
         coord = ""
@@ -74,48 +100,6 @@ class zorg:
 
         return
 
-    def buildAttacklist(inputfile, outputfile):
-        # old attack function will be replace by getStruct function
-        fname = inputfile
-        startofrecord = False
-        fh = open(outputfile, "w")
-        fh.close()
-        ignore = False
-        record = 0
-
-        with open(fname) as f:
-            for line in f:
-                linetype = zorg.getLinetype(line)
-                if (linetype == "coord"):
-                    record += 1
-                    print(record)
-                    if startofrecord:
-                        zorg.writeRecord(coord, metal, crystal, deut)
-                        coord = ""
-                        metal = 0
-                        crystal = 0
-                        deut = 0
-                        ignore = False
-                    else:
-                        startofrecord = True
-
-                    coord = zorg.getCoord(line)
-                elif (linetype == "ignore"):
-                    ignore = True
-                elif (ignore):
-                    pass
-                elif (linetype == "Metal"):
-                    metal = zorg.getMetal(line)
-                    crystal = zorg.getCrystal(line)
-                elif (linetype == "Deuterium"):
-                    deut = zorg.getDeut(line)
-                else:
-                    pass
-
-        if startofrecord:
-            zorg.writeRecord(coord, metal, crystal, deut)
-            startofrecord == False
-
     def getStruct(inputfilename):
         fname = inputfilename
         startofrecord = False
@@ -127,31 +111,37 @@ class zorg:
         with open(fname) as f:
             for line in f:
                 linetype = zorg.getLinetype(line)
-                if (linetype == "coord"):
-                    record += 1
-                    print(record)
-                    if startofrecord:
-                        strs.append((coord, metal, crystal, deut))
-                        coord = ""
-                        metal = 0
-                        crystal = 0
-                        deut = 0
-                        ignore = False
+                while (linetype != ""):
+                    if (linetype == "Raw Materials"):
+                        record += 1
+                        if startofrecord:
+                            strs.append((coord, metal, crystal, deut))
+                            coord = ""
+                            metal = 0
+                            crystal = 0
+                            deut = 0
+                            ignore = False
+                        else:
+                            startofrecord = True
+                            coord = zorg.getCoord(line)
+                    elif (linetype == "ignore"):
+                        ignore = True
+                    elif (ignore):
+                        pass
+                    elif (linetype == "Metal"):
+                        metal = zorg.getMetal(line)
+                    elif (linetype == "Crystal"):
+                        crystal = zorg.getCrystal(line)
+                    elif (linetype == "Deuterium"):
+                        deut = zorg.getDeut(line)
                     else:
-                        startofrecord = True
+                        pass
 
-                    coord = zorg.getCoord(line)
-                elif (linetype == "ignore"):
-                    ignore = True
-                elif (ignore):
-                    pass
-                elif (linetype == "Metal"):
-                    metal = zorg.getMetal(line)
-                    crystal = zorg.getCrystal(line)
-                elif (linetype == "Deuterium"):
-                    deut = zorg.getDeut(line)
-                else:
-                    pass
+                    if linetype == "Raw Materials":
+                        linetype = ""
+                    else:
+                        line = zorg.strip(line, linetype)
+                        linetype = zorg.getLinetype(line)
 
         if startofrecord:
             strs.append((coord, metal, crystal, deut))
