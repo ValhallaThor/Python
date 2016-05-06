@@ -8,10 +8,10 @@
 # s		- show something, ook nog te maken, per speler, locatie, grondstoffen gevonden, mijnen, defense of niet. 
 # Mooi zou zijn als we iets kunnen denken dat het redelijk dynamisch is, dus bijv.
 # ./zorgattack.py s speler:neusbeer 			of
-# ./zorgattack,py a resources:1000000	(dus alle targets laten zien met 1mil aan gs te raiden), maar dan ook in combi
-# ./zorgattack.py a resources:1000000,galaxy:5,inactive:true,timestamp:10 (days)
+# ./zorgattack,py s resources:1000000	(dus alle targets laten zien met 1mil aan gs te raiden), maar dan ook in combi
+# ./zorgattack.py s resources:1000000,galaxy:5,inactive:true,timestamp:10 (days)
 
-# ./zorgattack.py a  <variabelen> (of de variabelen als 2de argument, of een tekstfile verwijzing om in te lezen
+# ./zorgattack.py s  <variabelen> (of de variabelen als 2de argument, of een tekstfile verwijzing om in te lezen
 
 
 
