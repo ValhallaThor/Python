@@ -1,6 +1,6 @@
 #!/bin/python
 
-# voor nu, om het in ieder geval werktend te hebben
+# voor nu, om het in ieder geval werkend te hebben
 # ./zorgattack.py <parameter> <variabelen -> alleen met a(dd)
 # parameters:
 # a		- add (needs variabelen, 66 stuks)
