@@ -17,7 +17,7 @@ class zorg:
 
     def getLinetype(line):
         zorg.getSection(line)
-        if ("[" in line) and ("]" in line and zorg.section == 1):
+        if ("Raw Materials" in line) and (zorg.section == 1):
             return "Raw Materials"
         elif ("Metal" in line) and (zorg.section == 1):
             return "Metal"
@@ -72,6 +72,35 @@ class zorg:
         metal = int(coord)
         return metal
 
+    def getItem(line, linetype):
+        temp = ""
+        iStart = line.index(linetype)
+        temp = line[iStart + len(linetype):]
+        temp = temp.strip(' \n\t')
+        temp = temp.replace(".","")
+        x=0
+        item = 0
+        firstnum = -1
+        lastnum = -1
+
+        tlen = len(temp)
+        while (x < tlen):
+           if temp[x] >= "0" and temp[x] <= "9":
+               if firstnum < 0:
+                   firstnum = x
+               else:
+                   lastnum = x
+           else:
+               break
+
+           x = x + 1
+
+        if firstnum >= 0:
+            if lastnum < 0: lastnum = firstnum + 1
+            item = int(temp[firstnum:lastnum])
+
+        return item
+
     def getCrystal(line):
         coord = ""
         iStart = line.index("Crystal")
@@ -105,6 +134,10 @@ class zorg:
         startofrecord = False
         ignore = False
         record = 0
+        metal = 0
+        crystal = 0
+        deut = 0
+        rocketlauncher = 0
 
         strs = []
 
@@ -115,15 +148,17 @@ class zorg:
                     if (linetype == "Raw Materials"):
                         record += 1
                         if startofrecord:
-                            strs.append((coord, metal, crystal, deut))
-                            coord = ""
+                            coord = zorg.getCoord(line)
+                            strs.append((coord, metal, crystal, deut, rocketlauncher))
                             metal = 0
                             crystal = 0
                             deut = 0
+                            rocketlauncher = 0
                             ignore = False
                         else:
-                            startofrecord = True
                             coord = zorg.getCoord(line)
+                            startofrecord = True
+
                     elif (linetype == "ignore"):
                         ignore = True
                     elif (ignore):
@@ -134,6 +169,8 @@ class zorg:
                         crystal = zorg.getCrystal(line)
                     elif (linetype == "Deuterium"):
                         deut = zorg.getDeut(line)
+                    elif (linetype == "Rocket Launcher"):
+                        rocketlauncher = zorg.getItem(line,linetype)
                     else:
                         pass
 
@@ -144,7 +181,7 @@ class zorg:
                         linetype = zorg.getLinetype(line)
 
         if startofrecord:
-            strs.append((coord, metal, crystal, deut))
+            strs.append((coord, metal, crystal, deut,rocketlauncher))
             startofrecord == False
 
         return strs
